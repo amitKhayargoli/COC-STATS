@@ -6,6 +6,11 @@ body{
     background-repeat: no-repeat;
     min-height: 1200px;
     max-width: 1080px;
+
+    transform: scale(0.7); /* Scale down to 70% */
+    transform-origin: 0 0; /* Start scaling from top-left corner */
+    width: 142.86%; /* Adjust width to counteract scaling */
+    height: 142.86%; /* Adjust height to counteract scaling */
 }
 h1{
     font-family :Supercell-magic;
@@ -126,7 +131,7 @@ a{
     font-family: Supercell-magic;
     display: none;
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
     left:1100px;
     border-radius:  20px 20px 20px 20px;
 
