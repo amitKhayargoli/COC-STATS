@@ -1,0 +1,171 @@
+body{
+    margin: 10px 90px;
+    color: white;
+    background-image: linear-gradient(245.5deg,rgb(36, 41, 37),rgb(128, 174, 138) 25%,rgb(39, 109, 57) 75%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1200px;
+    max-width: 1080px;
+}
+h1{
+    font-family :Supercell-magic;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 0;
+    left: 700px;
+    font-size: 1.6em;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#goblin{
+    position: relative;
+    top: 200px;
+    left: 900px;
+    animation-name: anim;
+    animation-duration: 3s;
+    /* background: linear-gradient(265.65deg,#3b7446,#1a742c 80%,#386bd9 20%); */
+}
+
+.Text{
+    padding: 0px;
+    position: relative;
+    bottom: 260px;
+    left: 100px;
+    animation-name: anim;
+    animation-duration: 3s;
+}
+
+
+@keyframes anim{
+    from{transform: translateY(-300%);}
+    to{transform: translateY(0%);}
+}
+
+.Text h1{
+    color: #ffffff;
+    font-size: 5em;
+    /* font-family:"Permanent Marker"; */
+    font-family: Supercell-magic;
+}
+
+.Text h3{
+    width: 700px;
+    color: rgb(135, 222, 150);
+    font: 1.5em Arial;
+}
+
+.buttons{
+    font-size: 1.5em;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 35px;
+    background-color: rgb(14, 84, 14);
+}
+
+.buttons:hover{
+    background-color: rgb(146, 197, 94);
+}
+
+.button{
+    display: flex;
+    gap: 50px;
+}
+
+.barbs{
+    font-size: 1.5em;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 35px;
+    background-color: rgba(245, 204, 22, 0.72);
+}
+
+.barbs:hover{
+    background-color: darkorange;
+}
+
+.queens{
+    font-size: 1.5em;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 35px;
+    background-color: rgba(163, 101, 233, 0.781);
+}
+
+.queens:hover{
+    background-color: rgba(122, 19, 240, 0.991);
+}
+
+.troops{
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f3f3f3;
+    width: 30%;
+    height:200px;
+    background-color: rgba(85, 91, 82, 0.075);
+    font-family: Supercell-magic;
+    display: none;
+    position: relative;
+    bottom: 40px;
+    left:1100px;
+    border-radius:  20px 20px 20px 20px;
+
+}
+
+nav:hover .troops{
+    display: block;
+}
+
+.troops:hover{
+    display: block;
+}
+
+#dropdownBarb{
+    color: rgba(197, 197, 8, 0.491);
+}
+
+#dropdownBarb:hover {
+    color: rgba(251, 247, 6, 0.967);
+    font-size: 1.2em;
+}
+
+#dropdownQueen{
+color: rgba(143, 51, 248, 0.501);
+
+}
+
+#dropdownQueen:hover{
+    color: rgba(121, 18, 239, 0.959);
+    font-size: 1.2em;
+    
+    }
+#dropdownGoblin{
+    color: rgba(30, 221, 84, 0.389);
+
+}
+
+#dropdownGoblin:hover{
+    color: rgba(10, 237, 74, 0.889);
+    font-size: 1.2em;
+    
+    }
