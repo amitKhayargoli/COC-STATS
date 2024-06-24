@@ -65,8 +65,8 @@ a{
 .Text h1{
     color: #ffffff;
     font-size: 5em;
-    /* font-family:"Permanent Marker"; */
-    font-family: Supercell-magic;
+    font-family:"Permanent Marker";
+    /* font-family: Supercell-magic; */
 }
 
 .Text h3{
