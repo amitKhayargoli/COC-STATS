@@ -13,7 +13,7 @@ body{
     height: 142.86%; /* Adjust height to counteract scaling */
 }
 h1{
-    font-family :Supercell-magic;
+    font-family :"Permanent Marker";
 }
 
 nav{
@@ -128,7 +128,7 @@ a{
     width: 30%;
     height:200px;
     background-color: rgba(85, 91, 82, 0.075);
-    font-family: Supercell-magic;
+    font-family:"Permanent Marker";
     display: none;
     position: relative;
     bottom: 20px;
